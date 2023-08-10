@@ -1,9 +1,5 @@
 #include <stdio.h>
 /**
- * My first c code 
- *
- * These comments are going to be ignored by the compiler
- * 
  * main - Entry point
  *
  * Return: Always 0 (Success)
