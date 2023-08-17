@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * main - Prints a Fizz Buzz program
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
+
 int main(void)
 {
 	int k;
@@ -19,10 +20,11 @@ int main(void)
 		else if (k % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d", k);
-		if (k != 100)
+			printf("%i", k);
+		if (k < 100)
 			printf(" ");
 	}
 	printf("\n");
 	return (0);
 }
+			
