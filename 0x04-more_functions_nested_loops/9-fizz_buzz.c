@@ -19,7 +19,7 @@ int main(void)
 		else if (k % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%i", k);
+			printf("%d", k);
 		if (k != 100)
 			printf(" ");
 	}
