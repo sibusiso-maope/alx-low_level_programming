@@ -4,7 +4,7 @@
 /**
  * print_diagonal - prints diagonal using the '\' character
  * @n: number of times the '\' should be printed
- * Return: void 
+ * Return: void
  */
 
 void print_diagonal(int n)
