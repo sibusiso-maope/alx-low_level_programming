@@ -3,23 +3,24 @@
 
 /**
  * print_diagonal - prints diagonal using the '\' character
- * @n: number of time the '\' will be printed
- * Return: void
+ * @n: number of times the '\' should be printed
+ * Return: void 
  */
 
 void print_diagonal(int n)
 {
-	int k, l;
-
 	if (n <= 0)
 		putchar('\n');
-	for (k = 0 ; k < n ; k++)
+	else
+	{
+		int i, j;
+
+		for (i = 0 ; i < n ; i++)
 		{
-			for (l = 0 ; l <= k ; l++)
-			{
+			for (j = 0 ; j <= i ; j++)
 				putchar(' ');
-			}
 			putchar('\\');
 			putchar('\n');
 		}
+	}
 }
