@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - main function
@@ -13,13 +14,13 @@ int main(void)
 	for (k = 1 ; k <= 100 ; k++)
 	{
 		if ((k % 3 == 0) && (k % 5 == 0))
-			printf("%s", "FizzBzz");
+			printf("FizzBzz");
 		else if (k % 3 == 0)
-			printf("%s", "Fizz");
+			printf("Fizz");
 		else if (k % 5 == 0)
-			printf("%s", "Buzz");
+			printf("Buzz");
 		else
-			printf("%d", k);
+			printf("%i", k);
 		if (k != 100)
 			printf(" ");
 	}
