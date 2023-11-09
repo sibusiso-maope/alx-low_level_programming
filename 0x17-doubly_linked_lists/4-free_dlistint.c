@@ -3,7 +3,7 @@
 /**
  * free_dlistint - frees the dlistint_t list
  *
- * @#head: head of the list
+ * @head: head of the list
  * Return: returns nothing
  */
 
